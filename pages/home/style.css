@@ -1,0 +1,153 @@
+body {
+    width: 1440px;
+    height: 1964px;
+}
+
+
+.hero-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+
+    margin-left: 165px;
+
+    position: relative;
+}
+
+.hero-section img {
+    width: 1110px;
+    height: 600px;
+}
+
+.apresentacao_sobre {
+    display: flex;
+    flex-direction: column;
+
+    width: 445px;
+    height: 357px;
+    margin-top: 243px;
+
+    position: absolute;
+
+    background-color: #FAFAFA;
+}
+
+.apresentacao_sobre h1 {
+    margin-left: 27px;
+    margin-top: 56px;
+    margin-right: 28px;
+    margin-bottom: 101px;
+
+    width: 390px;
+    height: 200px;
+}
+
+.apresentacao_sobre a {
+    width: 200px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    height: 48px;
+    margin-top: 309px;
+
+    position: absolute;
+
+    background-color: #203A4C;
+}
+
+.imagem {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 48px;
+    height: 48px;
+
+    z-index: 1;
+
+    background-color: rgba(0, 0, 0, 0.5)
+}
+
+.imagem img {
+    width: 16px;
+    height: 12px;
+}
+
+.botao {
+    font-size: 12px;
+    font-family: public sans, sans-serif;
+    font-weight: 400;
+
+    width: 155px;
+
+    text-align: center;
+
+    color: #FAFAFA;
+}
+
+
+.apresentacao_sobre a:hover {
+    background-color: #5FB4A2;
+}
+
+.Sobre-Section {
+    display: flex;
+    justify-content: space-between;
+
+    margin-top: 149px;
+    margin-left: 165px;
+    width: 1110px;
+}
+
+.Sobre-Section img {
+    width: 540px;
+    height: 600px;
+}
+
+.sobre {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+
+    width: 430px;
+    height: 601px;
+
+    border-top: 1px solid #33323D;
+    border-bottom: 1px solid #33323D;
+}
+
+.sobre h2 {
+    width: 430px;
+    height: 42px;
+}
+
+.sobre p {
+    width: 430px;
+    height: 360px;
+}
+
+.sobre a {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    width: 204px;
+    height: 48px;
+    margin-left: 113px;
+
+    border: 1px solid black;
+    text-align: center;
+
+    font-family: Public Sans;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 14px;
+
+    color: #33323D;
+}
+
+.sobre a:hover {
+    background-color: #33323D;
+    color: white;
+}

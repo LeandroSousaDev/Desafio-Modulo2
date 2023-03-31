@@ -1,0 +1,68 @@
+body {
+    max-width: 1440px;
+    max-height: 2894px;
+}
+
+
+.portfolio-modelo {
+    display: flex;
+    justify-content: space-between;
+
+    margin-top: 80px;
+    margin-left: 212px;
+    margin-right: 212px;
+
+    width: 1015;
+    height: 500px;
+}
+
+.portfolio-modelo img {
+    width: 540px;
+    height: 500px;
+}
+
+.sobre {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+
+    width: 350px;
+    height: 500px;
+
+    border-top: 1px solid #33323D;
+    border-bottom: 1px solid #33323D;
+}
+
+.sobre h1 {
+    width: 350px;
+    height: 42px;
+}
+
+.sobre p {
+    width: 350px;
+    height: 120px;
+}
+
+.sobre a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 175px;
+    height: 48px;
+
+    font-family: Public Sans, sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 14px;
+
+    text-decoration: none;
+
+    color: #33323D;
+    border: 1px solid black;
+}
+
+.sobre a:hover {
+    background-color: #33323D;
+    color: #FAFAFA;
+}
